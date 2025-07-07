@@ -20,7 +20,7 @@ module tb();
   initial begin
     #10 rst = 1;
     #20 rst = 0;
-    #10 data = 8'b10010101;
+    #10 data = 8'b11110000;
 
     #100000;
     
